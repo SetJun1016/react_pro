@@ -54,10 +54,10 @@ export default class LoginScreen extends React.Component{
           <Button onPress={this.doLogin} title="登录"/>
         </View>
         <View style={ss.logoBox}>
-          {/* <Image source={require('../assets/logo.png')}/> */}
+          <Image source={require('../assets/logo.png')}/>
           <Text style={ss.logoTitle}>后台管理系统</Text>
         </View>
-        <Text style={ss.copy}>©2019,setJun.com版本所有</Text>
+        <Text style={ss.copy}>©2017，版权所有，CODEBOY.COM</Text>
       </View>
     )
   }
@@ -77,13 +77,13 @@ let ss = StyleSheet.create({
   },
   btnBox: {    //“登录”按钮的容器
     paddingTop: 25,
-    paddingBottom: 15
+    paddingBottom: 35
   },
   logoBox: {   //LOGO图标和文字的容器
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-evenly',
-    paddingBottom: 340,
+    paddingBottom: 30,
   },
   logoTitle: {  //LOGO标题文字
     fontSize: 30,
