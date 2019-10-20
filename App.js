@@ -6,8 +6,8 @@ import ProductDetailScreen from './src/components/ProductDetailScreen';
 
 //创建路由词典，即“栈式导航器”
 let routes = createStackNavigator({
-	main: MainScreen,
 	login: LoginScreen,   //排名第一的导航组件就是第一屏内容
+	main: MainScreen,
 	productList: ProductListScreen,
   	productDetail: ProductDetailScreen,
 })

@@ -11,7 +11,7 @@ export default class ProductDetailScreen extends React.Component{
     constructor(){
         super()
         this.state = {
-
+			
         }
     }
     componentDidMount(){
